@@ -16,7 +16,7 @@ const Navbar = () => {
   const closeMenu = () => setClick(false);
 
   return (
-    <AppBar position="static" id="navbar">
+    <AppBar id="navbar" position="sticky">
       <Toolbar>
         <IconButton></IconButton>
       </Toolbar>
