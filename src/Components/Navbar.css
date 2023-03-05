@@ -1,0 +1,14 @@
+#navbar {
+  background-color: black;
+  max-height: 70px;
+}
+
+#nav-button {
+  bottom: 20px;
+}
+
+#link {
+  font-family: "Montserrat";
+  font-size: 10px;
+  bottom: 20px;
+}

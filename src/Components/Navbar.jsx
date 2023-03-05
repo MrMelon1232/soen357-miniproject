@@ -1,14 +1,7 @@
-import {
-  AppBar,
-  Toolbar,
-  IconButton,
-  Typography,
-  Stack,
-  Button,
-  Grid,
-} from "@mui/material";
+import { AppBar, Toolbar, IconButton, Stack, Button } from "@mui/material";
 import { Link } from "react-scroll";
 import { useState } from "react";
+import "./Navbar.css";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -20,66 +13,66 @@ const Navbar = () => {
       <Toolbar>
         <IconButton></IconButton>
       </Toolbar>
-      <Typography
-        variant="h6"
-        component="div"
-        sx={{ flexGrow: 1 }}
-      ></Typography>
-      <Stack direction="row" justifyContent="flex-end" spacing={2}>
-        <Button color="inherit">
+      <Stack direction="row" justifyContent="flex-end" columnGap={2}>
+        <Button id="nav-button" color="inherit">
           <Link
+            id="link"
             to="Problem"
             spy={true}
             smooth={true}
-            offset={50}
+            offset={-100}
             duration={500}
             onClick={closeMenu}
           >
             Problem
           </Link>
         </Button>
-        <Button color="inherit">
+        <Button id="nav-button" color="inherit">
           <Link
+            id="link"
             to="Research"
             spy={true}
             smooth={true}
-            offset={100}
+            offset={-100}
             duration={500}
             onClick={closeMenu}
           >
             Research
           </Link>
         </Button>
-        <Button color="inherit">
+        <Button id="nav-button" color="inherit">
           <Link
+            id="link"
             to="Analysis"
             spy={true}
             smooth={true}
-            offset={100}
+            offset={-100}
             duration={500}
             onClick={closeMenu}
           >
             Analysis
           </Link>
         </Button>
-        <Button color="inherit">
+        <Button id="nav-button" color="inherit">
           <Link
+            id="link"
             to="VisualDesign"
             spy={true}
             smooth={true}
-            offset={100}
+            offset={-100}
             duration={500}
             onClick={closeMenu}
           >
             Visual Design
           </Link>
         </Button>
-        <Button color="inherit">
+        <Button id="nav-button" color="inherit">
           <Link
+            id="link"
             to="FinalDesign"
             spy={true}
             smooth={true}
-            offset={100}
+            offset={-100}
             duration={500}
             onClick={closeMenu}
           >

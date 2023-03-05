@@ -13,3 +13,7 @@ to initializa packages, run:
 to start the project, run:
 
 ### `npm start`
+
+to deploy the react app to Github pages, run:
+
+### `npm deploy`
