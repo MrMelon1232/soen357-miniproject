@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/soen357-miniproject/static/css/main.2f49fa2a.css",
+    "main.js": "/soen357-miniproject/static/js/main.200d9968.js",
+    "static/js/787.53f7da04.chunk.js": "/soen357-miniproject/static/js/787.53f7da04.chunk.js",
+    "index.html": "/soen357-miniproject/index.html",
+    "main.2f49fa2a.css.map": "/soen357-miniproject/static/css/main.2f49fa2a.css.map",
+    "main.200d9968.js.map": "/soen357-miniproject/static/js/main.200d9968.js.map",
+    "787.53f7da04.chunk.js.map": "/soen357-miniproject/static/js/787.53f7da04.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f49fa2a.css",
+    "static/js/main.200d9968.js"
+  ]
+}
