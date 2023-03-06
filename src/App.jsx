@@ -10,17 +10,10 @@ function App() {
   return (
     <div id="project-container">
       <Navbar />
-      <Grid container columnSpacing={{ xs: 1, sm: 2, md: 3 }}>
-        <Grid item xs={6}>
-          <h1 id="title"> Case Study: Designing for the Elderly</h1>
-          <h4> Flora Avakian 40158192 Section S</h4>
-          <h4>Jonathan Pauze 40177730 Section S</h4>
-          <h4>Julien Phan 40133814 Section V</h4>
-        </Grid>
-        <Grid item xs={6}>
-          <h1> </h1>
-        </Grid>
-      </Grid>
+      <h1 id="title"> Case Study: Designing for the Elderly</h1>
+      <h4 id="title"> Flora Avakian 40158192 Section S</h4>
+      <h4 id="title">Jonathan Pauze 40177730 Section S</h4>
+      <h4 id="title">Julien Phan 40133814 Section V</h4>
       <br></br>
       <br></br>
       <br></br>
@@ -119,12 +112,298 @@ function App() {
             paddingLeft: "100px",
           }}
         />
+        <h3 id="secondary-title">Storyboard</h3>
+        <h5 id="paragraph">
+          Storyboards allows us to imagine scenarios in which the user interacts
+          with the application. In this case, we have Cindy's story in which she
+          is the main character.
+        </h5>
+        <img
+          alt="flowchart"
+          src={require("./images/storyboard/storyboard.jpg")}
+          style={{
+            height: "80%",
+            width: "80%",
+            paddingRight: "100px",
+            paddingLeft: "100px",
+          }}
+        />
+        <h3 id="secondary-title">User flowchart</h3>
+        <h5 id="paragraph">
+          A user flowchart allows us to visualize the user experience and how
+          one would use and navigate the application.
+        </h5>
+        <img
+          alt="flowchart"
+          src={require("./images/flowchart/flowchart.png")}
+          style={{
+            height: "80%",
+            width: "80%",
+            paddingRight: "100px",
+            paddingLeft: "100px",
+          }}
+        />
       </div>
       <div id="VisualDesign">
         <h1 id="title"> Visual Design</h1>
+        <h3 id="secondary-title">Sketches</h3>
+        <h5 id="paragraph">
+          Sketches are an easy and effective way to create a general layout for
+          the application without being too formal.
+        </h5>
+        <Grid container>
+          <Grid item xs={6} md={6}>
+            iteration 1
+            <img
+              alt="iteration1"
+              src={require("./images/sketches/iteration1.jpg")}
+              style={{
+                height: "80%",
+                width: "80%",
+                paddingRight: "100px",
+                paddingLeft: "100px",
+              }}
+            />
+          </Grid>
+          <Grid item xs={6} md={6}>
+            iteration 2
+            <img
+              alt="iteration2"
+              src={require("./images/sketches/iteration2.jpg")}
+              style={{
+                height: "80%",
+                width: "80%",
+                paddingRight: "100px",
+                paddingLeft: "100px",
+              }}
+            />
+          </Grid>
+        </Grid>
+        <h3 id="secondary-title">Wireframes</h3>
+        <Grid container>
+          <Grid item xs={4} md={4}>
+            <img
+              alt="iteration1"
+              src={require("./images/wireframes/wireframe1.png")}
+              style={{
+                height: "80%",
+                width: "80%",
+                paddingRight: "100px",
+                paddingLeft: "100px",
+              }}
+            />
+          </Grid>
+          <Grid item xs={4} md={4}>
+            <img
+              alt="iteration1"
+              src={require("./images/wireframes/wireframe2.png")}
+              style={{
+                height: "80%",
+                width: "80%",
+                paddingRight: "100px",
+                paddingLeft: "100px",
+              }}
+            />
+          </Grid>
+          <Grid item xs={4} md={4}>
+            <img
+              alt="iteration1"
+              src={require("./images/wireframes/wireframe3.png")}
+              style={{
+                height: "80%",
+                width: "80%",
+                paddingRight: "100px",
+                paddingLeft: "100px",
+              }}
+            />
+          </Grid>
+          <Grid item xs={4} md={4}>
+            <img
+              alt="iteration1"
+              src={require("./images/wireframes/wireframe4.png")}
+              style={{
+                height: "80%",
+                width: "80%",
+                paddingRight: "100px",
+                paddingLeft: "100px",
+              }}
+            />
+          </Grid>
+          <Grid item xs={4} md={4}>
+            <img
+              alt="iteration1"
+              src={require("./images/wireframes/wireframe5.png")}
+              style={{
+                height: "80%",
+                width: "80%",
+                paddingRight: "100px",
+                paddingLeft: "100px",
+              }}
+            />
+          </Grid>
+          <Grid item xs={4} md={4}>
+            <img
+              alt="iteration1"
+              src={require("./images/wireframes/wireframe6.png")}
+              style={{
+                height: "80%",
+                width: "80%",
+                paddingRight: "100px",
+                paddingLeft: "100px",
+              }}
+            />
+          </Grid>
+          <Grid item xs={4} md={4}>
+            <img
+              alt="iteration1"
+              src={require("./images/wireframes/wireframe7.png")}
+              style={{
+                height: "80%",
+                width: "80%",
+                paddingRight: "100px",
+                paddingLeft: "100px",
+              }}
+            />
+          </Grid>
+          <Grid item xs={4} md={4}>
+            <img
+              alt="iteration1"
+              src={require("./images/wireframes/wireframe8.png")}
+              style={{
+                height: "80%",
+                width: "80%",
+                paddingRight: "100px",
+                paddingLeft: "100px",
+              }}
+            />
+          </Grid>
+        </Grid>
       </div>
       <div id="FinalDesign">
         <h1 id="title"> Final Design</h1>
+        <h3 id="secondary-title">Color Palette</h3>
+        <h5 id="paragraph">
+          After brainstorming color palettes, we ultimately chose a blue color
+          to represent the government of quebec as well as an color that could
+          match this blue and is easy to the eyes.
+        </h5>
+        <img
+          alt="iteration1"
+          src={require("./images/color/colorpalettes.png")}
+          style={{
+            height: "20%",
+            width: "20%",
+            paddingRight: "100px",
+            paddingLeft: "100px",
+            alignContent: "center",
+            textAlign: "center",
+          }}
+        />
+        <h3 id="secondary-title">Typography</h3>
+        <h5 id="paragraph">
+          As for the typography, we decided to go with Montserrat, a minimalist,
+          simple and classic font that is easy to read and is commonly known
+          among seniors.
+        </h5>
+        <h3 id="secondary-title">Final Design work</h3>
+        <Grid container>
+          <Grid item xs={4} md={4}>
+            <img
+              alt="iteration1"
+              src={require("./images/finaldesign/fd1.png")}
+              style={{
+                height: "80%",
+                width: "80%",
+                paddingRight: "100px",
+                paddingLeft: "100px",
+              }}
+            />
+          </Grid>
+          <Grid item xs={4} md={4}>
+            <img
+              alt="iteration1"
+              src={require("./images/finaldesign/fd2.png")}
+              style={{
+                height: "80%",
+                width: "80%",
+                paddingRight: "100px",
+                paddingLeft: "100px",
+              }}
+            />
+          </Grid>
+          <Grid item xs={4} md={4}>
+            <img
+              alt="iteration1"
+              src={require("./images/finaldesign/fd3.png")}
+              style={{
+                height: "80%",
+                width: "80%",
+                paddingRight: "100px",
+                paddingLeft: "100px",
+              }}
+            />
+          </Grid>
+          <Grid item xs={4} md={4}>
+            <img
+              alt="iteration1"
+              src={require("./images/finaldesign/fd4.png")}
+              style={{
+                height: "80%",
+                width: "80%",
+                paddingRight: "100px",
+                paddingLeft: "100px",
+              }}
+            />
+          </Grid>
+          <Grid item xs={4} md={4}>
+            <img
+              alt="iteration1"
+              src={require("./images/finaldesign/fd5.png")}
+              style={{
+                height: "80%",
+                width: "80%",
+                paddingRight: "100px",
+                paddingLeft: "100px",
+              }}
+            />
+          </Grid>
+          <Grid item xs={4} md={4}>
+            <img
+              alt="iteration1"
+              src={require("./images/finaldesign/fd6.png")}
+              style={{
+                height: "80%",
+                width: "80%",
+                paddingRight: "100px",
+                paddingLeft: "100px",
+              }}
+            />
+          </Grid>
+          <Grid item xs={4} md={4}>
+            <img
+              alt="iteration1"
+              src={require("./images/finaldesign/fd7.png")}
+              style={{
+                height: "80%",
+                width: "80%",
+                paddingRight: "100px",
+                paddingLeft: "100px",
+              }}
+            />
+          </Grid>
+          <Grid item xs={4} md={4}>
+            <img
+              alt="iteration1"
+              src={require("./images/finaldesign/fd8.png")}
+              style={{
+                height: "80%",
+                width: "80%",
+                paddingRight: "100px",
+                paddingLeft: "100px",
+              }}
+            />
+          </Grid>
+        </Grid>
       </div>
     </div>
   );
